@@ -459,3 +459,67 @@ Import trace:
 [ 2886909ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
 [ 2886957ms] [LOG] [Fast Refresh] done in 153ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
 [ 2887015ms] [WARNING] Image with src "/image.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3275107ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3275305ms] [LOG] [Fast Refresh] done in 83ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3275330ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3276044ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3276087ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3276218ms] [WARNING] Image with src "/image.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3276360ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3276423ms] [LOG] [Fast Refresh] done in 165ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3283962ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3284097ms] [LOG] [Fast Refresh] done in 146ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3284105ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3284637ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3284702ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3284814ms] [WARNING] Image with src "/image.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3285017ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3285167ms] [LOG] [Fast Refresh] done in 159ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3285272ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3285384ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3285452ms] [LOG] [Fast Refresh] done in 168ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3285946ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3285974ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3286141ms] [WARNING] Image with src "/image.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3446065ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3446172ms] [LOG] [Fast Refresh] done in 198ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3508119ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3508213ms] [LOG] [Fast Refresh] done in 195ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3910596ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3910691ms] [LOG] [Fast Refresh] done in 176ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4109492ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4370306ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4370533ms] [LOG] [Fast Refresh] done in 312ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4370743ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4370978ms] [LOG] [Fast Refresh] done in 352ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4401787ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4401845ms] [LOG] [Fast Refresh] done in 85ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4402138ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4402157ms] [LOG] [Fast Refresh] done in 120ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4402461ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4402541ms] [LOG] [Fast Refresh] done in 180ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4487736ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4487761ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4585695ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4585725ms] [LOG] [Fast Refresh] done in 73ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489

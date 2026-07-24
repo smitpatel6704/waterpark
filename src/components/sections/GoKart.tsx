@@ -19,24 +19,25 @@ export default function GoKart() {
   const kartOpacity = useTransform(scrollYProgress, [0.2, 0.35, 0.65, 0.8], [0, 1, 1, 0]);
 
   return (
-    <section ref={containerRef} className="relative py-20 sm:py-24 lg:py-32 bg-ocean-950 overflow-hidden min-h-[42rem] sm:min-h-[48rem] flex items-center">
+    <section ref={containerRef} className="relative py-10 sm:py-12 lg:py-16 bg-[#062b3a] overflow-hidden min-h-[34rem] sm:min-h-[36rem] lg:min-h-[40rem] flex items-center border-t border-aqua-400/15">
 
       {/* Cinematic Background — simplified for performance */}
       <motion.div style={{ y: bgY, willChange: "transform" }} className="absolute inset-0 z-0 transform-gpu">
-        <div className="absolute inset-0 bg-gradient-to-b from-ocean-950 via-ocean-900 to-ocean-950"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#062532] via-[#0a4052] to-[#062936]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_72%_38%,rgba(51,214,255,0.10),transparent_34%),radial-gradient(circle_at_22%_68%,rgba(255,92,51,0.07),transparent_28%)]"></div>
         {/* Abstract track lines — static, no blur animation */}
         <div className="absolute top-1/2 left-0 w-full h-32 -translate-y-1/2 bg-white/5 skew-y-3"></div>
         <div className="absolute top-1/2 left-0 w-full h-px -translate-y-1/2 bg-aqua-500/30 shadow-[0_0_10px_rgba(51,214,255,0.4)]"></div>
       </motion.div>
 
       <div className="container section-shell relative z-10">
-        <div className="text-center max-w-3xl mx-auto mb-48 sm:mb-56 md:mb-20">
+        <div className="text-center max-w-3xl mx-auto mb-36 sm:mb-40 md:mb-10">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4 }}
-            className="inline-block px-4 py-1.5 mb-5 sm:mb-6 bg-coral-500/20 border border-coral-500/50 text-coral-400 font-bold uppercase tracking-widest text-xs sm:text-sm rounded-full shadow-[0_0_20px_rgba(255,92,51,0.3)]"
+            className="inline-block px-4 py-1.5 mb-4 bg-coral-500/20 border border-coral-500/50 text-coral-400 font-bold uppercase tracking-widest text-xs sm:text-sm rounded-full shadow-[0_0_20px_rgba(255,92,51,0.3)]"
           >
             Coming Soon
           </motion.div>
@@ -46,7 +47,7 @@ export default function GoKart() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-3xl sm:text-4xl md:text-6xl font-black text-white mb-5 sm:mb-6 leading-tight"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4 leading-tight"
           >
             India&apos;s First <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-coral-400 to-yellow-400">
@@ -60,7 +61,7 @@ export default function GoKart() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-base sm:text-lg md:text-xl text-white/70 font-medium leading-relaxed"
+            className="text-sm sm:text-base md:text-lg text-white/70 font-medium leading-relaxed"
           >
             Feel the rush as you race across the water in a completely new go-karting experience built for speed, excitement, and unforgettable competition.
           </motion.p>
@@ -70,9 +71,9 @@ export default function GoKart() {
       {/* Animated Kart — GPU-optimized with will-change */}
       <motion.div
         style={{ x: kartX, opacity: kartOpacity, willChange: "transform, opacity" }}
-        className="absolute top-[68%] md:top-1/2 left-0 w-full -translate-y-1/2 z-20 pointer-events-none transform-gpu"
+        className="absolute top-[70%] md:top-[53%] left-0 w-full -translate-y-1/2 z-20 pointer-events-none transform-gpu"
       >
-        <div className="relative w-[min(82vw,20rem)] md:w-[34rem] h-40 md:h-64 mx-auto">
+        <div className="relative w-[min(78vw,18rem)] md:w-[30rem] lg:w-[32rem] h-36 md:h-52 lg:h-56 mx-auto">
           {/* Speed trails — static gradients, no animated blur */}
           <div className="absolute top-1/2 right-full w-96 h-2 -translate-y-1/2 bg-gradient-to-l from-white/60 to-transparent rounded-full"></div>
           <div className="absolute top-[calc(50%+16px)] right-full w-64 h-1 -translate-y-1/2 bg-gradient-to-l from-aqua-400/60 to-transparent rounded-full"></div>

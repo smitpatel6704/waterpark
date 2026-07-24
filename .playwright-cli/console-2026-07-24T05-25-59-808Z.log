@@ -469,3 +469,68 @@ Import trace:
 [ 3239135ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
 [ 3239339ms] [WARNING] Image with src "/image.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
 [ 3239384ms] [WARNING] Image with src "/attr-slides.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3627311ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3627510ms] [LOG] [Fast Refresh] done in 83ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3627540ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3628424ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3628470ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3628598ms] [WARNING] Image with src "/image.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3628654ms] [WARNING] Image with src "/attr-slides.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3636167ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3636302ms] [LOG] [Fast Refresh] done in 146ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3636317ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3637010ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3637059ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3637161ms] [WARNING] Image with src "/image.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3637202ms] [WARNING] Image with src "/attr-slides.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3637222ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3637372ms] [LOG] [Fast Refresh] done in 159ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3637391ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3637590ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3637657ms] [LOG] [Fast Refresh] done in 168ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3638116ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3638145ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3638273ms] [WARNING] Image with src "/image.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3638333ms] [WARNING] Image with src "/attr-slides.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3798270ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3798377ms] [LOG] [Fast Refresh] done in 187ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3860325ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 3860418ms] [LOG] [Fast Refresh] done in 195ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4262801ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4262896ms] [LOG] [Fast Refresh] done in 175ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4461695ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4722511ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4722738ms] [LOG] [Fast Refresh] done in 309ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4722935ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4723184ms] [LOG] [Fast Refresh] done in 353ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4753992ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4754050ms] [LOG] [Fast Refresh] done in 78ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4754344ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4754362ms] [LOG] [Fast Refresh] done in 120ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4754666ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4754745ms] [LOG] [Fast Refresh] done in 180ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4839943ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4839966ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4937895ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 4937930ms] [LOG] [Fast Refresh] done in 68ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489

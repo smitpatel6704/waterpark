@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex flex-col items-center justify-center section-shell py-20 text-center">
+      <div className="hero-content relative z-10 h-full flex flex-col items-center justify-center section-shell py-20 text-center">
         <motion.div
           style={{ y: yText, opacity }}
           className="flex flex-col items-center max-w-5xl mx-auto"
@@ -33,7 +33,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="mb-4 sm:mb-6 inline-block px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white font-bold uppercase tracking-widest text-xs sm:text-sm shadow-xl"
+            className="hero-badge mb-4 sm:mb-6 inline-block px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white font-bold uppercase tracking-widest text-xs sm:text-sm shadow-xl"
           >
             Coming Soon
           </motion.div>
@@ -42,7 +42,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-            className="text-[clamp(2.15rem,8.8vw,5rem)] font-black text-white leading-[1.05] mb-4 sm:mb-6 drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)] tracking-tight"
+            className="hero-title text-[clamp(2.15rem,8.8vw,5rem)] font-black text-white leading-[1.05] mb-4 sm:mb-6 drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)] tracking-tight"
           >
             India’s Biggest <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-aqua-300 via-aqua-100 to-white drop-shadow-sm">
@@ -55,7 +55,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-            className="text-sm sm:text-base md:text-xl text-white/90 font-medium max-w-3xl mb-6 sm:mb-10 leading-relaxed text-balance drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]"
+            className="hero-copy text-sm sm:text-base md:text-xl text-white/90 font-medium max-w-3xl mb-6 sm:mb-10 leading-relaxed text-balance drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]"
           >
             Get ready for giant inflatable obstacles, thrilling water slides, floating adventures, India’s first Water Go-Kart experience, relaxing lazy river moments, and unforgettable fun for every age.
           </motion.p>
@@ -64,7 +64,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
-            className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto"
+            className="hero-actions flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto"
           >
             <a
               href="#attractions"
