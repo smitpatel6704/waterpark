@@ -20,7 +20,7 @@ export default function GoKart() {
   const kartOpacity = useTransform(scrollYProgress, [0.2, 0.35, 0.65, 0.8], [0, 1, 1, 0]);
 
   return (
-    <section ref={containerRef} className="relative py-10 sm:py-12 lg:py-16 bg-[#062b3a] overflow-hidden min-h-[34rem] sm:min-h-[36rem] lg:min-h-[40rem] flex items-center border-t border-aqua-400/15">
+    <section ref={containerRef} className="relative py-6 sm:py-8 lg:py-10 bg-[#062b3a] overflow-hidden min-h-[28rem] sm:min-h-[30rem] lg:min-h-[32rem] flex items-center border-t border-aqua-400/15">
       <svg aria-hidden="true" className="absolute h-0 w-0">
         <filter id="live-water-waves" x="-15%" y="-15%" width="130%" height="130%">
           <feTurbulence
@@ -55,7 +55,7 @@ export default function GoKart() {
       </svg>
 
       {/* Cinematic water background */}
-      <motion.div style={{ y: bgY, willChange: "transform" }} className="absolute inset-0 z-0 transform-gpu">
+      <motion.div style={{ y: bgY, willChange: "transform" }} className="absolute inset-x-0 -inset-y-[12%] z-0 transform-gpu">
         <motion.div
           className="absolute -inset-[10%] transform-gpu"
           animate={{
