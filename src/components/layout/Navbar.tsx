@@ -23,6 +23,7 @@ export default function Navbar() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -53,12 +54,16 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" onClick={(e) => handleNavClick(e, "#top")} className="group z-50 relative block h-10 w-36 sm:w-44 lg:w-52">
           <Image
-            src="/image.png"
+            src={
+              isScrolled || isMobileMenuOpen
+                ? "/image.png"
+                : "/Aquatown Delivery File-03.png"
+            }
             alt="Aquatown Logo"
             fill
             className={cn(
               "object-contain object-left origin-left scale-[2.1] sm:scale-[2.5] lg:scale-[2.8] transition-all",
-              isScrolled || isMobileMenuOpen ? "mix-blend-multiply" : "mix-blend-screen"
+              isScrolled || isMobileMenuOpen ? "mix-blend-multiply" : "mix-blend-normal"
             )}
             priority
           />
