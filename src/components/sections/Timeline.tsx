@@ -93,7 +93,7 @@ export default function Timeline() {
   return (
     <section
       ref={containerRef}
-      className="relative py-28 bg-gradient-to-b from-ocean-950 via-ocean-900 to-ocean-950 overflow-hidden"
+      className="relative py-16 sm:py-20 lg:py-28 bg-gradient-to-b from-ocean-950 via-ocean-900 to-ocean-950 overflow-hidden"
       id="journey"
     >
       {/* Background glow effects */}
@@ -103,25 +103,25 @@ export default function Timeline() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-ocean-500/5 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container section-shell relative z-10">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="text-center mb-20"
+          className="text-center mb-12 sm:mb-16 lg:mb-20"
         >
           <span className="inline-block px-4 py-1.5 mb-5 bg-white/10 backdrop-blur-sm border border-white/10 text-aqua-300 font-bold uppercase tracking-widest text-xs rounded-full">
             Our Story
           </span>
-          <h2 className="text-4xl md:text-6xl font-black text-white mb-5 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-white mb-5 tracking-tight">
             Our{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-aqua-300 to-aqua-100">
               Journey
             </span>
           </h2>
-          <p className="text-white/60 max-w-xl mx-auto text-lg font-medium">
+          <p className="text-white/60 max-w-xl mx-auto text-base sm:text-lg font-medium">
             From a bold vision to India&apos;s biggest inflatable water
             adventure — follow the Aquatown story.
           </p>
@@ -130,12 +130,12 @@ export default function Timeline() {
         {/* Timeline */}
         <div className="relative max-w-6xl mx-auto">
           {/* Central Vertical Line (static background) */}
-          <div className="absolute left-6 md:left-1/2 md:-translate-x-px top-0 bottom-0 w-0.5 bg-white/10"></div>
+          <div className="absolute left-5 sm:left-6 md:left-1/2 md:-translate-x-px top-0 bottom-0 w-0.5 bg-white/10"></div>
 
           {/* Animated Progress Line */}
           <motion.div
             style={{ height: lineHeight }}
-            className="absolute left-6 md:left-1/2 md:-translate-x-px top-0 w-0.5 bg-gradient-to-b from-aqua-400 via-aqua-300 to-coral-400 origin-top max-h-[60%]"
+            className="absolute left-5 sm:left-6 md:left-1/2 md:-translate-x-px top-0 w-0.5 bg-gradient-to-b from-aqua-400 via-aqua-300 to-coral-400 origin-top max-h-[60%]"
           ></motion.div>
 
           {/* Milestone Items */}
@@ -150,16 +150,16 @@ export default function Timeline() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-80px" }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="relative mb-20 last:mb-0"
+                className="relative mb-10 sm:mb-14 lg:mb-20 last:mb-0"
               >
                 {/* Timeline Icon — Center */}
-                <div className="absolute left-6 md:left-1/2 -translate-x-1/2 z-20 top-1/2 -translate-y-1/2">
+                <div className="absolute left-5 sm:left-6 md:left-1/2 -translate-x-1/2 z-20 top-8 sm:top-1/2 sm:-translate-y-1/2">
                   <div
                     className={`relative w-12 h-12 md:w-14 md:h-14 rounded-full bg-gradient-to-br ${milestone.color} flex items-center justify-center shadow-lg shadow-black/30 border-4 border-ocean-950 ${
                       milestone.status === "current"
                         ? "ring-4 ring-coral-400/50 ring-offset-2 ring-offset-ocean-950"
                         : ""
-                    }`}
+                    } scale-90 sm:scale-100`}
                   >
                     <Icon size={22} className="text-white" />
                     {milestone.status === "current" && (
@@ -170,7 +170,7 @@ export default function Timeline() {
 
                 {/* Card — alternating sides */}
                 <div
-                  className={`ml-16 md:ml-0 md:w-[calc(50%-3.5rem)] ${
+                  className={`ml-12 sm:ml-16 md:ml-0 md:w-[calc(50%-3.5rem)] ${
                     isLeft ? "md:mr-auto md:pr-0" : "md:ml-auto md:pl-0"
                   }`}
                 >
@@ -197,7 +197,7 @@ export default function Timeline() {
                       </div>
 
                       {/* Text Content */}
-                      <div className="p-5 md:p-6 flex-1">
+                      <div className="p-4 sm:p-5 md:p-6 flex-1">
                         {/* Year Badge */}
                         <span
                           className={`inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-3 ${
@@ -242,7 +242,7 @@ export default function Timeline() {
           })}
 
           {/* Bottom dot */}
-          <div className="absolute left-6 md:left-1/2 -translate-x-1/2 bottom-0 z-20">
+          <div className="absolute left-5 sm:left-6 md:left-1/2 -translate-x-1/2 bottom-0 z-20">
             <div className="w-4 h-4 rounded-full bg-gradient-to-br from-coral-400 to-coral-600 border-4 border-ocean-950 shadow-lg"></div>
           </div>
         </div>

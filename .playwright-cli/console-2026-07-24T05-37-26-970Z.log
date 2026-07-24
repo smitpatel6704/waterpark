@@ -1,0 +1,408 @@
+[  132766ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  133094ms] [LOG] [Fast Refresh] done in 290ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  133188ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  133192ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  133193ms] [LOG] [Fast Refresh] done in 43ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  133584ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  133653ms] [LOG] [Fast Refresh] done in 170ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  134155ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  134183ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  138883ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  138905ms] [LOG] [Fast Refresh] done in 13ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  138908ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  139010ms] [LOG] [Fast Refresh] done in 3ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  139030ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  139032ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  139152ms] [LOG] [Fast Refresh] done in 5ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  139970ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  140067ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  140403ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  140554ms] [LOG] [Fast Refresh] done in 252ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  145775ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  145803ms] [LOG] [Fast Refresh] done in 17ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  145816ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  145957ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  145959ms] [LOG] [Fast Refresh] done in 153ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  146090ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  146203ms] [LOG] [Fast Refresh] done in 214ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  146510ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  146626ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  157187ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9WaRj3TreVKIPmThP52-1' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/20gk_next_dist_client_1xwm0v_._.js:13422
+[  158189ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9WaRj3TreVKIPmThP52-1' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/20gk_next_dist_client_1xwm0v_._.js:13422
+[  159192ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9WaRj3TreVKIPmThP52-1' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/20gk_next_dist_client_1xwm0v_._.js:13422
+[  160195ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=9WaRj3TreVKIPmThP52-1' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/20gk_next_dist_client_1xwm0v_._.js:13422
+[  161273ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  162369ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  162379ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  162648ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  162778ms] [LOG] [Fast Refresh] done in 232ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  208071ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  208157ms] [LOG] [Fast Refresh] done in 148ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  609559ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  609870ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  609874ms] [LOG] [Fast Refresh] done in 360ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  610349ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  610397ms] [LOG] [Fast Refresh] done in 148ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  611101ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  611192ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  611427ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  611592ms] [LOG] [Fast Refresh] done in 276ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  615842ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  616034ms] [LOG] [Fast Refresh] done in 211ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  616050ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  616166ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  616371ms] [LOG] [Fast Refresh] done in 306ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  616479ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  616485ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  616950ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  617050ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  617539ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  617560ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  619561ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  619725ms] [LOG] [Fast Refresh] done in 55ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  619748ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  619852ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  619938ms] [LOG] [Fast Refresh] done in 186ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  620490ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  620552ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  620939ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  620992ms] [LOG] [Fast Refresh] done in 155ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  683075ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  683155ms] [LOG] [Fast Refresh] done in 138ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  683160ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  683195ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  683905ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  684185ms] [LOG] [Fast Refresh] done in 748ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  685078ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  685186ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  935883ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  936368ms] [LOG] [Fast Refresh] done in 586ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  940369ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  940375ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  953692ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[  953758ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1345339ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1345591ms] [LOG] [Fast Refresh] done in 323ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1345622ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1345757ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1345813ms] [LOG] [Fast Refresh] done in 158ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1346070ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1346084ms] [LOG] [Fast Refresh] done in 115ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1346911ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1346950ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1937784ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1937980ms] [LOG] [Fast Refresh] done in 133ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1938097ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1938307ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1938432ms] [LOG] [Fast Refresh] done in 227ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1938711ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1938799ms] [LOG] [Fast Refresh] done in 187ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1939371ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1939595ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1941377ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=zsK-Sx5SzZLPCrZWyQgtl' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/20gk_next_dist_client_1xwm0v_._.js:13422
+[ 1942688ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1943384ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 1943403ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2023385ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2023982ms] [LOG] [Fast Refresh] done in 677ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2063974ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2064232ms] [LOG] [Fast Refresh] done in 70ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2064240ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2064638ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2064654ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2065160ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2065322ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2065819ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2065889ms] [LOG] [Fast Refresh] done in 173ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2105579ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2105749ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2105751ms] [LOG] [Fast Refresh] done in 177ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2105763ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2106041ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2106137ms] [LOG] [Fast Refresh] done in 197ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2106624ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2106669ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2106957ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2107447ms] [LOG] [Fast Refresh] done in 189ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2288408ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2288618ms] [LOG] [Fast Refresh] done in 264ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2288782ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2288864ms] [LOG] [Fast Refresh] done in 184ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2302405ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2302422ms] [LOG] [Fast Refresh] done in 80ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2335444ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2335470ms] [LOG] [Fast Refresh] done in 60ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2341427ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2341455ms] [LOG] [Fast Refresh] done in 54ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2373780ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2373796ms] [LOG] [Fast Refresh] done in 63ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2435731ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2435778ms] [LOG] [Fast Refresh] done in 75ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2435892ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2435993ms] [LOG] [Fast Refresh] done in 72ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2493271ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2495445ms] [ERROR] ./Desktop/aqua/src/components/layout/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  1 | import Image from "next/image";
+> 2 | import { Instagram } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   const socialLinks = [
+
+The export Instagram was not found in module [project]/Desktop/aqua/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Desktop/aqua/src/components/layout/Footer.tsx
+    ./Desktop/aqua/src/app/page.tsx @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:3330
+[ 2495464ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=q3mOO9BClNZHexY7:0
+[ 2495619ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2495978ms] [ERROR] ./Desktop/aqua/src/components/layout/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  1 | import Image from "next/image";
+> 2 | import { Instagram } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   const socialLinks = [
+
+The export Instagram was not found in module [project]/Desktop/aqua/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Desktop/aqua/src/components/layout/Footer.tsx
+    ./Desktop/aqua/src/app/page.tsx @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:3330
+[ 2496017ms] [ERROR] ./Desktop/aqua/src/components/layout/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  1 | import Image from "next/image";
+> 2 | import { Instagram } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   const socialLinks = [
+
+The export Instagram was not found in module [project]/Desktop/aqua/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Desktop/aqua/src/components/layout/Footer.tsx
+    ./Desktop/aqua/src/app/page.tsx @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:3330
+[ 2496036ms] [ERROR] ./Desktop/aqua/src/components/layout/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  1 | import Image from "next/image";
+> 2 | import { Instagram } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   const socialLinks = [
+
+The export Instagram was not found in module [project]/Desktop/aqua/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Desktop/aqua/src/components/layout/Footer.tsx
+    ./Desktop/aqua/src/app/page.tsx @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:3330
+[ 2496151ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2496196ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=q3mOO9BClNZHexY7:0
+[ 2496291ms] [ERROR] ./Desktop/aqua/src/components/layout/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  1 | import Image from "next/image";
+> 2 | import { Instagram } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   const socialLinks = [
+
+The export Instagram was not found in module [project]/Desktop/aqua/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Desktop/aqua/src/components/layout/Footer.tsx
+    ./Desktop/aqua/src/app/page.tsx @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:3330
+[ 2496357ms] [ERROR] ./Desktop/aqua/src/components/layout/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  1 | import Image from "next/image";
+> 2 | import { Instagram } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   const socialLinks = [
+
+The export Instagram was not found in module [project]/Desktop/aqua/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Desktop/aqua/src/components/layout/Footer.tsx
+    ./Desktop/aqua/src/app/page.tsx @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:3330
+[ 2496421ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[ 2496669ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_react-dom_09vwelp._.js:15305
+[ 2496721ms] Error: ./Desktop/aqua/src/components/layout/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  1 | import Image from "next/image";
+> 2 | import { Instagram } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   const socialLinks = [
+
+The export Instagram was not found in module [project]/Desktop/aqua/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Desktop/aqua/src/components/layout/Footer.tsx
+    ./Desktop/aqua/src/app/page.tsx
+
+
+    at <unknown> (Error: ./Desktop/aqua/src/components/layout/Footer.tsx:2:1)
+    at Object.getCompilationErrors (file:///Users/smitpatel/Desktop/aqua/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/smitpatel/Desktop/aqua/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/smitpatel/Desktop/aqua/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///Users/smitpatel/Desktop/aqua/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/smitpatel/Desktop/aqua/node_modules/next/dist/server/base-server.js:1753:26)
+[ 2496777ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_18aegbi._.js:1226
+[ 2496816ms] [ERROR] ./Desktop/aqua/src/components/layout/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  1 | import Image from "next/image";
+> 2 | import { Instagram } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   const socialLinks = [
+
+The export Instagram was not found in module [project]/Desktop/aqua/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Desktop/aqua/src/components/layout/Footer.tsx
+    ./Desktop/aqua/src/app/page.tsx @ http://localhost:3000/_next/static/chunks/20gk_next_dist_18aegbi._.js:1945
+[ 2496894ms] [ERROR] ./Desktop/aqua/src/components/layout/Footer.tsx:2:1
+Export Instagram doesn't exist in target module
+  1 | import Image from "next/image";
+> 2 | import { Instagram } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Footer() {
+  5 |   const socialLinks = [
+
+The export Instagram was not found in module [project]/Desktop/aqua/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-rsc] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Desktop/aqua/src/components/layout/Footer.tsx
+    ./Desktop/aqua/src/app/page.tsx @ http://localhost:3000/_next/static/chunks/20gk_next_dist_18aegbi._.js:1945
+[ 2549647ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_18aegbi._.js:1226
+[ 2550279ms] [LOG] [Fast Refresh] done in 257ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_18aegbi._.js:1226
+[ 2550997ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/20gk_next_dist_18aegbi._.js:1226
+[ 2551094ms] [LOG] [Fast Refresh] done in 197ms @ http://localhost:3000/_next/static/chunks/20gk_next_dist_18aegbi._.js:1226
+[ 2551692ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489
+[ 2551852ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/20gk_next_dist_0zq9kua._.js:2489

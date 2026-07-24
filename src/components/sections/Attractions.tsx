@@ -69,8 +69,8 @@ export default function Attractions() {
   const x = useTransform(scrollYProgress, [0, 1], [0, -scrollRange]);
 
   return (
-    <section ref={targetRef} className="relative h-[300vh] bg-ocean-950" id="attractions">
-      <div className="sticky top-0 h-screen flex flex-col justify-center overflow-hidden will-change-transform">
+    <section ref={targetRef} className="attractions-section relative h-[300vh] bg-ocean-950" id="attractions">
+      <div className="attractions-sticky sticky top-0 h-screen flex flex-col justify-center overflow-hidden will-change-transform">
 
         {/* Background Decorative Elements */}
         <div className="absolute inset-0 pointer-events-none">
@@ -78,17 +78,17 @@ export default function Attractions() {
           <div className="absolute bottom-20 right-20 w-96 h-96 bg-coral-500/10 rounded-full blur-3xl"></div>
         </div>
 
-        <div className="container mx-auto px-6 mb-12 relative z-10">
+        <div className="container section-shell mb-6 sm:mb-8 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white mb-4">
               Dive Into the <span className="text-transparent bg-clip-text bg-gradient-to-r from-aqua-400 to-aqua-200">Adventure</span>
             </h2>
-            <p className="text-white/70 max-w-2xl text-lg font-medium text-balance">
+            <p className="text-white/70 max-w-2xl text-base sm:text-lg font-medium text-balance">
               Explore a world of inflatable challenges, high-speed excitement, floating fun, and relaxing water experiences.
             </p>
           </motion.div>
@@ -97,12 +97,13 @@ export default function Attractions() {
         <motion.div
           ref={containerRef}
           style={{ x, willChange: "transform" }}
-          className="flex gap-8 px-6 md:px-20 relative z-10 w-max pb-10"
+          className="attractions-track flex gap-4 lg:gap-5 px-6 md:px-10 lg:px-20 relative z-10 w-max pb-6"
         >
           {attractions.map((item, index) => (
             <div
               key={index}
-              className="relative w-[300px] md:w-[400px] h-[450px] md:h-[500px] rounded-[2rem] overflow-hidden group cursor-pointer shrink-0 transform-gpu transition-transform duration-300 hover:-translate-y-2.5"
+              tabIndex={0}
+              className="attraction-card relative w-[min(76vw,270px)] md:w-[280px] lg:w-[310px] h-[370px] md:h-[380px] lg:h-[410px] rounded-[1.5rem] overflow-hidden group cursor-pointer shrink-0 transform-gpu transition-transform duration-300 hover:-translate-y-2"
             >
               {/* Background Image — using Next/Image for optimized loading */}
               <Image
@@ -121,19 +122,19 @@ export default function Attractions() {
               <div className={`absolute inset-0 bg-gradient-to-br ${item.color} opacity-40 group-hover:opacity-20 transition-opacity duration-500 mix-blend-color z-10`}></div>
 
               {item.badge && (
-                <div className="absolute top-6 left-6 px-4 py-1.5 bg-white text-ocean-950 font-bold text-xs uppercase tracking-widest rounded-full shadow-lg z-20">
+                <div className="absolute top-4 left-4 px-3 py-1.5 bg-white text-ocean-950 font-bold text-[10px] uppercase tracking-widest rounded-full shadow-lg z-20">
                   {item.badge}
                 </div>
               )}
 
-              <div className="absolute inset-0 p-8 flex flex-col justify-end z-20">
-                <div className="transform-gpu translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                  <h3 className="text-2xl md:text-3xl font-black text-white mb-3 drop-shadow-md">{item.title}</h3>
-                  <p className="text-white/90 font-medium text-sm md:text-base leading-relaxed mb-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 drop-shadow-md">
+              <div className="absolute inset-0 p-4 sm:p-5 flex flex-col justify-end z-20">
+                <div className="attraction-copy transform-gpu transition-transform duration-500 ease-out">
+                  <h3 className="text-xl md:text-2xl font-black text-white mb-2 drop-shadow-md">{item.title}</h3>
+                  <p className="attraction-detail text-white/90 font-medium text-xs md:text-sm leading-relaxed mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 drop-shadow-md">
                     {item.desc}
                   </p>
 
-                  <div className="flex items-center gap-2 text-white font-bold text-sm tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200">
+                  <div className="attraction-detail flex items-center gap-2 text-white font-bold text-[10px] sm:text-xs tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200">
                     Discover More <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
                   </div>
                 </div>

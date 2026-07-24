@@ -42,15 +42,15 @@ export default function Seasonal() {
   };
 
   return (
-    <section className="relative py-32 overflow-hidden bg-white">
-      <div className="container mx-auto px-6 relative z-10">
+    <section className="relative py-16 sm:py-20 lg:py-32 overflow-hidden bg-white">
+      <div className="container section-shell relative z-10">
         
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-black text-ocean-950 mb-6 leading-tight"
+            className="text-3xl sm:text-4xl md:text-5xl font-black text-ocean-950 mb-5 sm:mb-6 leading-tight"
           >
             A New Adventure <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-coral-500 to-purple-500">
@@ -62,15 +62,15 @@ export default function Seasonal() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-lg text-ocean-800/80 font-medium leading-relaxed text-balance"
+            className="text-base sm:text-lg text-ocean-800/80 font-medium leading-relaxed text-balance"
           >
             Aquatown will continuously introduce new inflatable rides, slides, challenges, and floating attractions so every visit feels fresh, exciting, and completely different.
           </motion.p>
         </div>
 
-        <div className="relative max-w-5xl mx-auto">
+        <div className="relative max-w-4xl mx-auto">
           {/* Carousel Container */}
-          <div className="relative h-[450px] md:h-[500px] rounded-[2.5rem] overflow-hidden shadow-2xl border border-black/5 bg-white backdrop-blur-xl group">
+          <div className="relative h-[30rem] min-[480px]:h-[29rem] md:h-[420px] rounded-[1.5rem] sm:rounded-[2rem] overflow-hidden shadow-2xl border border-black/5 bg-white backdrop-blur-xl group">
             
             {/* Ambient background glow based on current season */}
             <div className={cn(
@@ -85,10 +85,10 @@ export default function Seasonal() {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.98 }}
                 transition={{ duration: 0.6, ease: "easeInOut" }}
-                className="absolute inset-0 flex flex-col md:flex-row items-center p-6 md:p-12 gap-8 md:gap-12"
+                className="absolute inset-0 flex flex-col md:flex-row items-center p-4 sm:p-5 md:p-8 gap-4 sm:gap-5 md:gap-8"
               >
                 {/* Image Section */}
-                <div className="w-full md:w-1/2 h-48 md:h-full relative rounded-[2rem] overflow-hidden shadow-xl border border-black/5">
+                <div className="w-full md:w-1/2 h-44 sm:h-48 md:h-full shrink-0 relative rounded-[1.25rem] sm:rounded-[1.5rem] overflow-hidden shadow-xl border border-black/5">
                   <Image
                     src={seasons[currentIndex].image}
                     alt={seasons[currentIndex].title}
@@ -106,13 +106,13 @@ export default function Seasonal() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
                   >
-                    <div className="inline-block px-4 py-1.5 mb-6 bg-ocean-50 border border-ocean-100 rounded-full text-ocean-900 font-bold text-xs tracking-widest uppercase shadow-sm">
+                    <div className="inline-block px-3 sm:px-4 py-1.5 mb-3 sm:mb-6 bg-ocean-50 border border-ocean-100 rounded-full text-ocean-900 font-bold text-[10px] sm:text-xs tracking-widest uppercase shadow-sm">
                       Concept Theme
                     </div>
-                    <h3 className="text-3xl md:text-5xl font-black text-ocean-950 mb-6 leading-tight">
+                    <h3 className="text-2xl sm:text-3xl md:text-5xl font-black text-ocean-950 mb-3 sm:mb-6 leading-tight">
                       {seasons[currentIndex].title}
                     </h3>
-                    <p className="text-ocean-800/80 font-medium text-lg leading-relaxed mb-8 max-w-md mx-auto md:mx-0">
+                    <p className="text-ocean-800/80 font-medium text-sm sm:text-base md:text-lg leading-relaxed mb-16 md:mb-8 max-w-md mx-auto md:mx-0">
                       {seasons[currentIndex].desc}
                     </p>
                   </motion.div>
@@ -121,16 +121,18 @@ export default function Seasonal() {
             </AnimatePresence>
 
             {/* Navigation Buttons */}
-            <div className="absolute bottom-6 md:bottom-auto md:top-1/2 left-0 right-0 flex justify-center md:justify-between px-6 md:-translate-y-1/2 gap-4 md:gap-0 z-20 pointer-events-none">
+            <div className="absolute bottom-5 md:bottom-auto md:top-1/2 left-0 right-0 flex justify-center md:justify-between px-5 sm:px-6 md:-translate-y-1/2 gap-4 md:gap-0 z-20 pointer-events-none">
               <button
                 onClick={handlePrev}
-                className="pointer-events-auto w-12 h-12 md:w-14 md:h-14 rounded-full bg-white/90 backdrop-blur-md border border-ocean-100 shadow-lg flex items-center justify-center text-ocean-900 hover:bg-white hover:scale-110 transition-all"
+                aria-label="Previous season"
+                className="pointer-events-auto w-11 h-11 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full bg-white/90 backdrop-blur-md border border-ocean-100 shadow-lg flex items-center justify-center text-ocean-900 hover:bg-white hover:scale-110 transition-all"
               >
                 <ChevronLeft size={24} />
               </button>
               <button
                 onClick={handleNext}
-                className="pointer-events-auto w-12 h-12 md:w-14 md:h-14 rounded-full bg-white/90 backdrop-blur-md border border-ocean-100 shadow-lg flex items-center justify-center text-ocean-900 hover:bg-white hover:scale-110 transition-all"
+                aria-label="Next season"
+                className="pointer-events-auto w-11 h-11 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full bg-white/90 backdrop-blur-md border border-ocean-100 shadow-lg flex items-center justify-center text-ocean-900 hover:bg-white hover:scale-110 transition-all"
               >
                 <ChevronRight size={24} />
               </button>
@@ -143,6 +145,8 @@ export default function Seasonal() {
               <button
                 key={idx}
                 onClick={() => setCurrentIndex(idx)}
+                aria-label={`Show ${seasons[idx].title}`}
+                aria-current={idx === currentIndex ? "true" : undefined}
                 className={cn(
                   "h-2.5 rounded-full transition-all duration-300",
                   idx === currentIndex ? "w-12 bg-ocean-600" : "w-3 bg-ocean-200 hover:bg-ocean-300"

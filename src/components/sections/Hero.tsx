@@ -14,7 +14,7 @@ export default function Hero() {
   const opacity = useTransform(scrollYProgress, [0, 0.6], [1, 0]);
 
   return (
-    <section ref={containerRef} className="relative h-screen min-h-[800px] w-full overflow-hidden pt-20">
+    <section id="top" ref={containerRef} className="relative min-h-[42rem] h-[100svh] max-h-[68rem] w-full overflow-hidden pt-16 sm:pt-20">
       {/* Image Background */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex flex-col items-center justify-center px-6 text-center">
+      <div className="relative z-10 h-full flex flex-col items-center justify-center section-shell py-20 text-center">
         <motion.div
           style={{ y: yText, opacity }}
           className="flex flex-col items-center max-w-5xl mx-auto"
@@ -33,7 +33,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="mb-6 inline-block px-4 py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white font-bold uppercase tracking-widest text-sm shadow-xl"
+            className="mb-4 sm:mb-6 inline-block px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white font-bold uppercase tracking-widest text-xs sm:text-sm shadow-xl"
           >
             Coming Soon
           </motion.div>
@@ -42,7 +42,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-            className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] mb-6 drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)] tracking-tight"
+            className="text-[clamp(2.15rem,8.8vw,5rem)] font-black text-white leading-[1.05] mb-4 sm:mb-6 drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)] tracking-tight"
           >
             India’s Biggest <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-aqua-300 via-aqua-100 to-white drop-shadow-sm">
@@ -55,7 +55,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-            className="text-lg md:text-xl text-white/90 font-medium max-w-3xl mb-10 leading-relaxed text-balance drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]"
+            className="text-sm sm:text-base md:text-xl text-white/90 font-medium max-w-3xl mb-6 sm:mb-10 leading-relaxed text-balance drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]"
           >
             Get ready for giant inflatable obstacles, thrilling water slides, floating adventures, India’s first Water Go-Kart experience, relaxing lazy river moments, and unforgettable fun for every age.
           </motion.p>
@@ -68,13 +68,13 @@ export default function Hero() {
           >
             <a
               href="#attractions"
-              className="w-full sm:w-auto px-8 py-4 rounded-full bg-coral-500 hover:bg-coral-600 text-white font-bold text-lg shadow-xl hover:shadow-coral-500/30 hover:-translate-y-1 transition-all"
+              className="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 rounded-full bg-coral-500 hover:bg-coral-600 text-white font-bold text-base sm:text-lg shadow-xl hover:shadow-coral-500/30 hover:-translate-y-1 transition-all"
             >
               Explore Attractions
             </a>
             <a
               href="#contact"
-              className="w-full sm:w-auto px-8 py-4 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md text-white font-bold text-lg shadow-xl border border-white/30 hover:-translate-y-1 transition-all"
+              className="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md text-white font-bold text-base sm:text-lg shadow-xl border border-white/30 hover:-translate-y-1 transition-all"
             >
               Get Launch Updates
             </a>

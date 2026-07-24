@@ -133,7 +133,7 @@ const jsonLd = {
   telephone: "+916355918057",
   email: "info@aquatown.in",
   sameAs: [
-    "https://www.instagram.com/aquatownin",
+    "https://www.instagram.com/aquatownindia",
     "https://www.facebook.com/aquatownin",
   ],
   amenityFeature: [

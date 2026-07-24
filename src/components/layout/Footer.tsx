@@ -1,8 +1,17 @@
 import Image from "next/image";
 
 export default function Footer() {
+  const socialLinks = [
+    {
+      name: "Instagram",
+      href: "https://www.instagram.com/aquatownindia",
+    },
+    { name: "Facebook", href: "#" },
+    { name: "Twitter", href: "#" },
+  ];
+
   return (
-    <footer className="relative bg-ocean-900 text-white overflow-hidden pt-32 pb-10">
+    <footer className="relative bg-ocean-900 text-white overflow-hidden pt-24 sm:pt-28 lg:pt-32 pb-8 sm:pb-10">
       {/* Animated waves background using SVG */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
         <svg
@@ -18,15 +27,15 @@ export default function Footer() {
         </svg>
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+      <div className="container section-shell relative z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-10 lg:gap-12 mb-10 sm:mb-12">
           <div className="col-span-1 md:col-span-2">
-            <a href="#" className="flex items-center gap-2 mb-6 relative h-12 w-64 block">
+            <a href="#top" className="mb-5 sm:mb-6 relative h-12 w-48 sm:w-56 block">
               <Image
                 src="/image.png"
                 alt="Aquatown Logo"
                 fill
-                className="object-contain object-left origin-left scale-[2.5] md:scale-[3] mix-blend-screen"
+                className="object-contain object-left origin-left scale-[2.2] sm:scale-[2.6] md:scale-[3] mix-blend-screen"
               />
             </a>
             <p className="text-white/70 max-w-sm mb-6 leading-relaxed">
@@ -61,15 +70,39 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="border-t border-white/10 pt-7 sm:pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/50 text-sm text-center md:text-left font-medium">
             © 2026 Aquatown. All Rights Reserved.
           </p>
           <div className="flex items-center gap-4">
-            {['Instagram', 'Facebook', 'Twitter'].map((social) => (
-              <a key={social} href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors group">
-                <span className="sr-only">{social}</span>
-                <div className="w-4 h-4 rounded-sm bg-white/50 group-hover:bg-aqua-400 transition-colors"></div>
+            {socialLinks.map((social) => (
+              <a
+                key={social.name}
+                href={social.href}
+                aria-label={social.name}
+                target={social.href.startsWith("http") ? "_blank" : undefined}
+                rel={social.href.startsWith("http") ? "noreferrer" : undefined}
+                className="w-11 h-11 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors group"
+              >
+                <span className="sr-only">{social.name}</span>
+                {social.name === "Instagram" ? (
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="h-5 w-5 text-white/60 transition-colors group-hover:text-aqua-400"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="5" />
+                    <circle cx="12" cy="12" r="4" />
+                    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+                  </svg>
+                ) : (
+                  <div className="w-4 h-4 rounded-sm bg-white/50 group-hover:bg-aqua-400 transition-colors"></div>
+                )}
               </a>
             ))}
           </div>

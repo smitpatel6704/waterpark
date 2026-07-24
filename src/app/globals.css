@@ -34,10 +34,115 @@
 
   body {
     @apply bg-cyan-50 text-slate-900;
+    min-width: 320px;
   }
   
   h1, h2, h3, h4, h5, h6 {
     @apply font-poppins font-bold;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    max-width: 80rem;
+    margin-inline: auto;
+  }
+
+  .section-shell {
+    padding-inline: clamp(1rem, 4vw, 2rem);
+  }
+}
+
+html {
+  scroll-padding-top: 5rem;
+}
+
+body {
+  overflow-wrap: break-word;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+button,
+a,
+input,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 767px) {
+  .attractions-section {
+    height: auto !important;
+  }
+
+  .attractions-sticky {
+    position: relative !important;
+    height: auto !important;
+    padding-block: 4rem;
+  }
+
+  .attractions-track {
+    display: grid !important;
+    width: 100% !important;
+    transform: none !important;
+    grid-template-columns: 1fr;
+    gap: 1rem !important;
+    padding-inline: 1rem !important;
+    padding-bottom: 0 !important;
+  }
+
+  .attraction-card {
+    width: 100% !important;
+    height: clamp(18rem, 84vw, 22rem) !important;
+  }
+
+  .attraction-card .attraction-copy {
+    transform: none !important;
+  }
+
+  .attraction-card .attraction-detail {
+    opacity: 1 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .attraction-copy {
+    transform: translateY(calc(100% - 3.75rem));
+  }
+
+  .attraction-card:hover .attraction-copy,
+  .attraction-card:focus-visible .attraction-copy {
+    transform: translateY(0);
+  }
+
+  .attraction-card:focus-visible {
+    outline: 3px solid rgb(51 214 255 / 0.8);
+    outline-offset: 4px;
+  }
+
+  .attraction-card:focus-visible .attraction-detail {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 

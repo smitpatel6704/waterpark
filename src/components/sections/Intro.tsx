@@ -28,9 +28,9 @@ const stats = [
 
 export default function Intro() {
   return (
-    <section className="relative py-24 bg-cyan-50 overflow-hidden" id="experience">
-      <div className="container mx-auto px-6 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+    <section className="relative py-16 sm:py-20 lg:py-28 bg-cyan-50 overflow-hidden" id="experience">
+      <div className="container section-shell relative z-10">
+        <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
           
           {/* Text Content */}
           <div className="flex-1 text-center lg:text-left">
@@ -40,19 +40,19 @@ export default function Intro() {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-4xl md:text-5xl font-black text-ocean-950 mb-6 leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-ocean-950 mb-5 sm:mb-6 leading-tight">
                 A New Wave of <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-aqua-500 to-ocean-500">
                   Adventure Is Coming
                 </span>
               </h2>
-              <p className="text-lg text-ocean-800/80 mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+              <p className="text-base sm:text-lg text-ocean-800/80 mb-8 sm:mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
                 Aquatown is an upcoming inflatable-format water adventure park designed to bring together thrilling water challenges, floating attractions, giant slides, relaxing experiences, and family-friendly entertainment in one unforgettable destination.
               </p>
             </motion.div>
 
             {/* Stats Grid */}
-            <div className="grid grid-cols-2 gap-6 max-w-2xl mx-auto lg:mx-0">
+            <div className="grid grid-cols-1 min-[380px]:grid-cols-2 gap-3 sm:gap-4 max-w-xl mx-auto lg:mx-0">
               {stats.map((stat, index) => (
                 <motion.div
                   key={index}
@@ -60,13 +60,13 @@ export default function Intro() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 0.5, delay: 0.1 * index }}
-                  className="bg-white/60 backdrop-blur-md border border-white p-6 rounded-3xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all group"
+                  className="bg-white/60 backdrop-blur-md border border-white p-3.5 sm:p-4 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all group"
                 >
-                  <div className="w-12 h-12 rounded-full bg-cyan-50 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <div className="w-10 h-10 rounded-full bg-cyan-50 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                     {stat.icon}
                   </div>
-                  <h4 className="font-bold text-ocean-950 text-lg leading-tight mb-1">{stat.title}</h4>
-                  <p className="text-ocean-800/70 text-sm font-medium">{stat.desc}</p>
+                  <h4 className="font-bold text-ocean-950 text-sm sm:text-base leading-tight mb-1">{stat.title}</h4>
+                  <p className="text-ocean-800/70 text-xs sm:text-sm font-medium">{stat.desc}</p>
                 </motion.div>
               ))}
             </div>
@@ -85,7 +85,7 @@ export default function Intro() {
               <motion.div 
                 animate={{ y: [-10, 10, -10], rotate: [0, 5, 0] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute inset-4 rounded-[3rem] shadow-2xl overflow-hidden border-8 border-white bg-cover bg-center"
+                className="absolute inset-3 sm:inset-4 rounded-[2rem] sm:rounded-[3rem] shadow-2xl overflow-hidden border-4 sm:border-8 border-white bg-cover bg-center"
                 style={{ backgroundImage: "url('/intro-img.png')" }}
               >
                 {/* Water surface inner reflection */}
@@ -96,13 +96,13 @@ export default function Intro() {
               <motion.div 
                 animate={{ y: [15, -15, 15], rotate: [-10, 10, -10] }}
                 transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute top-10 right-10 w-32 h-32 bg-coral-500 rounded-full border-4 border-white shadow-xl opacity-90 backdrop-blur-md"
+                className="absolute top-5 right-4 sm:top-10 sm:right-10 w-16 h-16 min-[420px]:w-20 min-[420px]:h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 bg-coral-500 rounded-full border-[3px] sm:border-4 border-white shadow-xl opacity-90 backdrop-blur-md"
               ></motion.div>
 
               <motion.div 
                 animate={{ y: [-20, 20, -20], x: [10, -10, 10] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute bottom-20 left-10 w-24 h-24 bg-yellow-400 rounded-2xl border-4 border-white shadow-xl opacity-90 rotate-12"
+                className="absolute bottom-10 left-5 sm:bottom-16 sm:left-8 lg:bottom-20 lg:left-10 w-14 h-14 min-[420px]:w-16 min-[420px]:h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-yellow-400 rounded-xl sm:rounded-2xl border-[3px] sm:border-4 border-white shadow-xl opacity-90 rotate-12"
               ></motion.div>
 
               <motion.div 

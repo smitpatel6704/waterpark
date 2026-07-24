@@ -54,7 +54,7 @@ const itemVariants: Variants = {
 
 export default function Safety() {
   return (
-    <section className="relative py-32 bg-[#CEFAFE] overflow-hidden" id="safety">
+    <section className="relative py-16 sm:py-20 lg:py-32 bg-[#CEFAFE] overflow-hidden" id="safety">
       {/* Top Wave Divider connecting from the white section above */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0] -translate-y-[99%] z-10 rotate-180">
         <svg className="relative block w-[calc(100%+1.3px)] h-[60px]" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1200 120">
@@ -68,8 +68,8 @@ export default function Safety() {
         <div className="absolute bottom-1/4 -right-40 w-96 h-96 bg-cyan-200 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
-        <div className="flex flex-col lg:flex-row gap-16 items-center">
+      <div className="container section-shell relative z-10">
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-center">
 
           <div className="flex-1 text-center lg:text-left">
             <motion.div
@@ -78,13 +78,13 @@ export default function Safety() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-4xl md:text-5xl font-black text-ocean-950 mb-6 leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-ocean-950 mb-5 sm:mb-6 leading-tight">
                 Adventure Designed <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-ocean-600 to-aqua-600">
                   for Everyone
                 </span>
               </h2>
-              <p className="text-lg text-ocean-800/80 mb-12 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium text-balance">
+              <p className="text-base sm:text-lg text-ocean-800/80 mb-8 sm:mb-12 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium text-balance">
                 Aquatown is being designed with dedicated experiences for adults, children, families, and adventure seekers, supported by carefully planned activity zones and safety-focused operations.
               </p>
 
@@ -126,22 +126,22 @@ export default function Safety() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-100px" }}
-              className="grid grid-cols-1 sm:grid-cols-2 gap-6"
+              className="grid grid-cols-1 min-[440px]:grid-cols-2 gap-3 sm:gap-4"
             >
               {features.map((feature, idx) => (
                 <motion.div
                   key={idx}
                   variants={itemVariants}
-                  className="relative p-6 md:p-8 rounded-[2rem] bg-white/50 backdrop-blur-xl border border-white/60 hover:bg-white/80 hover:-translate-y-1 hover:shadow-xl transition-all group overflow-hidden shadow-[0_10px_40px_-15px_rgba(0,0,0,0.05)]"
+                  className="relative p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-white/50 backdrop-blur-xl border border-white/60 hover:bg-white/80 hover:-translate-y-1 hover:shadow-xl transition-all group overflow-hidden shadow-[0_10px_40px_-15px_rgba(0,0,0,0.05)]"
                 >
                   {/* Subtle top glow on hover */}
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
 
-                  <div className="w-14 h-14 rounded-2xl bg-white/80 border border-white flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-white transition-all shadow-sm">
+                  <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-white/80 border border-white flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 group-hover:bg-white transition-all shadow-sm">
                     {feature.icon}
                   </div>
-                  <h4 className="text-xl font-bold text-ocean-950 mb-3">{feature.title}</h4>
-                  <p className="text-ocean-800/70 text-sm md:text-base font-medium leading-relaxed">{feature.desc}</p>
+                  <h4 className="text-base sm:text-lg font-bold text-ocean-950 mb-2">{feature.title}</h4>
+                  <p className="text-ocean-800/70 text-xs sm:text-sm font-medium leading-relaxed">{feature.desc}</p>
                 </motion.div>
               ))}
             </motion.div>
