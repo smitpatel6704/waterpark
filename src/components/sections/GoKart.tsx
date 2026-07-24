@@ -3,7 +3,8 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import waterGoKart from "../../../public/water-go-kart-with-driver.png";
+import waterGoKart from "../../../public/aquakart-black-right.png";
+import waterBackground from "../../../public/gokart-water-background.png";
 
 export default function GoKart() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -20,14 +21,84 @@ export default function GoKart() {
 
   return (
     <section ref={containerRef} className="relative py-10 sm:py-12 lg:py-16 bg-[#062b3a] overflow-hidden min-h-[34rem] sm:min-h-[36rem] lg:min-h-[40rem] flex items-center border-t border-aqua-400/15">
+      <svg aria-hidden="true" className="absolute h-0 w-0">
+        <filter id="live-water-waves" x="-15%" y="-15%" width="130%" height="130%">
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency="0.006 0.018"
+            numOctaves={2}
+            seed={7}
+            result="waterNoise"
+          >
+            <animate
+              attributeName="baseFrequency"
+              values="0.006 0.018;0.009 0.025;0.006 0.018"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          </feTurbulence>
+          <feDisplacementMap
+            in="SourceGraphic"
+            in2="waterNoise"
+            scale={22}
+            xChannelSelector="R"
+            yChannelSelector="B"
+          >
+            <animate
+              attributeName="scale"
+              values="14;26;14"
+              dur="4s"
+              repeatCount="indefinite"
+            />
+          </feDisplacementMap>
+        </filter>
+      </svg>
 
-      {/* Cinematic Background — simplified for performance */}
+      {/* Cinematic water background */}
       <motion.div style={{ y: bgY, willChange: "transform" }} className="absolute inset-0 z-0 transform-gpu">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#062532] via-[#0a4052] to-[#062936]"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_72%_38%,rgba(51,214,255,0.10),transparent_34%),radial-gradient(circle_at_22%_68%,rgba(255,92,51,0.07),transparent_28%)]"></div>
-        {/* Abstract track lines — static, no blur animation */}
-        <div className="absolute top-1/2 left-0 w-full h-32 -translate-y-1/2 bg-white/5 skew-y-3"></div>
-        <div className="absolute top-1/2 left-0 w-full h-px -translate-y-1/2 bg-aqua-500/30 shadow-[0_0_10px_rgba(51,214,255,0.4)]"></div>
+        <motion.div
+          className="absolute -inset-[10%] transform-gpu"
+          animate={{
+            x: ["-8%", "8%"],
+          }}
+          transition={{ duration: 8, ease: "linear", repeat: Infinity, repeatType: "loop" }}
+          style={{ filter: "url(#live-water-waves)", willChange: "transform, filter" }}
+        >
+          <Image
+            src={waterBackground}
+            alt=""
+            fill
+            sizes="116vw"
+            className="object-cover brightness-150 saturate-200"
+            aria-hidden="true"
+          />
+        </motion.div>
+        <motion.div
+          className="absolute -inset-[12%] opacity-30 mix-blend-screen transform-gpu"
+          animate={{
+            x: ["-10%", "10%"],
+          }}
+          transition={{ duration: 5.5, ease: "linear", repeat: Infinity, repeatType: "loop" }}
+          style={{ willChange: "transform" }}
+        >
+          <Image
+            src={waterBackground}
+            alt=""
+            fill
+            sizes="124vw"
+            className="object-cover brightness-150 saturate-200"
+            aria-hidden="true"
+          />
+        </motion.div>
+        <div className="absolute inset-0 bg-[#00bff3]/55 mix-blend-color"></div>
+        <div className="absolute inset-0 bg-cyan-300/20 mix-blend-screen"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_46%,rgba(0,55,78,0.34),transparent_58%)]"></div>
+        <motion.div
+          className="absolute -inset-x-1/4 bottom-[8%] h-[38%] bg-[linear-gradient(105deg,transparent_28%,rgba(210,251,255,0.34)_48%,transparent_68%)] blur-2xl"
+          animate={{ x: ["-28%", "28%"], opacity: [0.55, 0.9] }}
+          transition={{ duration: 4, ease: "linear", repeat: Infinity, repeatType: "loop" }}
+          style={{ willChange: "transform, opacity" }}
+        />
       </motion.div>
 
       <div className="container section-shell relative z-10">
@@ -84,7 +155,7 @@ export default function GoKart() {
           <div className="absolute inset-0">
             <Image
               src={waterGoKart}
-              alt="Helmeted racer driving a blue and orange water go-kart"
+              alt="Helmeted racer driving a black AquaKart with yellow accents"
               fill
               sizes="(min-width: 768px) 544px, 320px"
               className="object-contain drop-shadow-[0_18px_18px_rgba(0,0,0,0.35)]"
