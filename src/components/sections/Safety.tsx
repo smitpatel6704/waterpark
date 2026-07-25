@@ -79,20 +79,20 @@ export default function Safety() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-ocean-950 mb-5 sm:mb-6 leading-tight">
-                Adventure Designed <br />
+                Safe Water Adventure <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-ocean-600 to-aqua-600">
                   for Everyone
                 </span>
               </h2>
               <p className="text-base sm:text-lg text-ocean-800/80 mb-8 sm:mb-12 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium text-balance">
-                Aquatown is being designed with dedicated experiences for adults, children, families, and adventure seekers, supported by carefully planned activity zones and safety-focused operations.
+                Aquatown is being designed as the best family water park in Gujarat with dedicated experiences for adults, kids, families, and adventure seekers, supported by carefully planned activity zones and trained safety teams.
               </p>
 
               {/* Premium Safety Image Card */}
               <div className="hidden lg:block relative w-full aspect-[4/3] rounded-[2.5rem] bg-ocean-900 overflow-hidden group shadow-2xl shadow-ocean-900/30 border border-white/40">
                 <Image
                   src="/safety-inflatable-park.png"
-                  alt="Supervised inflatable water adventure course with guests wearing life jackets"
+                  alt="Family-friendly inflatable water park with trained safety lifeguards at Aquatown Gujarat"
                   fill
                   sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-105 opacity-75"

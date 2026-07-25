@@ -22,6 +22,7 @@ const milestones = [
     color: "from-aqua-400 to-aqua-600",
     bgColor: "bg-aqua-500",
     image: "/timeline-vision.png",
+    alt: "Aquatown vision – planning India's largest inflatable water adventure park",
     status: "completed",
   },
   {
@@ -33,6 +34,7 @@ const milestones = [
     color: "from-ocean-400 to-ocean-600",
     bgColor: "bg-ocean-500",
     image: "/timeline-dubai.png",
+    alt: "Dubai inflatable water park inspiration for Aquatown water adventure park India",
     status: "completed",
   },
   {
@@ -44,6 +46,7 @@ const milestones = [
     color: "from-cyan-400 to-cyan-600",
     bgColor: "bg-cyan-500",
     image: "/timeline-research.png",
+    alt: "Research and planning phase for Aquatown inflatable water park Gujarat",
     status: "completed",
   },
   {
@@ -55,6 +58,7 @@ const milestones = [
     color: "from-coral-400 to-coral-600",
     bgColor: "bg-coral-500",
     image: "/timeline-construction.png",
+    alt: "Construction of Aquatown – India's largest inflatable water adventure park near Ahmedabad",
     status: "current",
   },
   {
@@ -66,6 +70,7 @@ const milestones = [
     color: "from-yellow-400 to-yellow-600",
     bgColor: "bg-yellow-500",
     image: "/timeline-opening.png",
+    alt: "Aquatown grand opening – best water park in Gujarat opening 2027",
     status: "upcoming",
   },
   {
@@ -77,6 +82,7 @@ const milestones = [
     color: "from-purple-400 to-purple-600",
     bgColor: "bg-purple-500",
     image: "/timeline-future.png",
+    alt: "Future expansion plans for Aquatown water adventure park India",
     status: "upcoming",
   },
 ];
@@ -189,7 +195,7 @@ export default function Timeline() {
                       <div className="relative w-full sm:w-40 md:w-48 h-40 sm:h-auto shrink-0 overflow-hidden">
                         <Image
                           src={milestone.image}
-                          alt={milestone.title}
+                          alt={milestone.alt}
                           fill
                           className="object-cover group-hover:scale-110 transition-transform duration-700"
                         />

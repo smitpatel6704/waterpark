@@ -33,13 +33,13 @@ export default function Footer() {
             <a href="#top" className="mb-5 sm:mb-6 relative h-12 w-48 sm:w-56 block">
               <Image
                 src="/image.png"
-                alt="Aquatown Logo"
+                alt="Aquatown – India's largest inflatable water adventure park logo"
                 fill
                 className="object-contain object-left origin-left scale-[2.2] sm:scale-[2.6] md:scale-[3] mix-blend-screen"
               />
             </a>
             <p className="text-white/70 max-w-sm mb-6 leading-relaxed">
-              India’s Ultimate Inflatable Water Adventure Park. Get ready for thrilling water challenges, floating attractions, and family-friendly entertainment.
+              India&apos;s largest inflatable water adventure park coming soon to Kadi, Gujarat. Featuring Water Go-Kart, giant inflatable obstacle courses, kids splash zone, and the best family water park experience near Ahmedabad.
             </p>
             <div className="inline-block px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-xs font-bold tracking-wider uppercase text-aqua-400">
               Coming Soon

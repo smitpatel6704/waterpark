@@ -155,7 +155,7 @@ export default function GoKart() {
           <div className="absolute inset-0">
             <Image
               src={waterGoKart}
-              alt="Helmeted racer driving a black AquaKart with yellow accents"
+              alt="Water Go Kart India – racer driving AquaKart at Aquatown inflatable water adventure park"
               fill
               sizes="(min-width: 768px) 544px, 320px"
               className="object-contain drop-shadow-[0_18px_18px_rgba(0,0,0,0.35)]"

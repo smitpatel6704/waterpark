@@ -10,21 +10,24 @@ const seasons = [
   {
     id: "summer",
     title: "Summer Splash",
-    desc: "Giant inflatable water slides and cool refreshing obstacle courses perfect for the summer heat.",
+    desc: "Giant inflatable water slides and cool refreshing obstacle courses — the best summer vacation destination in Gujarat.",
+    alt: "Summer water slides and inflatable obstacle course at Aquatown water park Gujarat",
     color: "from-yellow-400 to-coral-500",
     image: "/attr-slides.png",
   },
   {
     id: "monsoon",
     title: "Monsoon Madness",
-    desc: "Rain-themed interactive splash zones and high-intensity balance challenges.",
+    desc: "Rain-themed interactive splash zones and high-intensity balance challenges at India's largest inflatable water park.",
+    alt: "Monsoon rain dance water activities at Aquatown inflatable adventure park",
     color: "from-aqua-500 to-ocean-600",
     image: "/intro-img.png",
   },
   {
     id: "winter",
     title: "Winter Wave",
-    desc: "Heated relaxation pools alongside thrilling high-speed inflatable rides.",
+    desc: "Heated relaxation pools alongside thrilling high-speed inflatable rides — a perfect family weekend getaway.",
+    alt: "Winter water adventure with inflatable rides at Aquatown family water park near Ahmedabad",
     color: "from-purple-400 to-indigo-600",
     image: "/hero-bg.png",
   },
@@ -91,7 +94,7 @@ export default function Seasonal() {
                 <div className="w-full md:w-1/2 h-44 sm:h-48 md:h-full shrink-0 relative rounded-[1.25rem] sm:rounded-[1.5rem] overflow-hidden shadow-xl border border-black/5">
                   <Image
                     src={seasons[currentIndex].image}
-                    alt={seasons[currentIndex].title}
+                    alt={seasons[currentIndex].alt}
                     fill
                     className="object-cover transition-transform duration-1000 group-hover:scale-105"
                   />

@@ -14,7 +14,7 @@ export default function Hero() {
   const opacity = useTransform(scrollYProgress, [0, 0.6], [1, 0]);
 
   return (
-    <section id="top" ref={containerRef} className="relative min-h-[42rem] h-[100svh] max-h-[68rem] w-full overflow-hidden pt-16 sm:pt-20">
+    <section id="top" ref={containerRef} aria-label="India's largest inflatable water adventure park coming soon" className="relative min-h-[42rem] h-[100svh] max-h-[68rem] w-full overflow-hidden pt-16 sm:pt-20">
       {/* Image Background */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
@@ -44,11 +44,11 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="hero-title text-[clamp(2.15rem,8.8vw,5rem)] font-black text-white leading-[1.05] mb-4 sm:mb-6 drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)] tracking-tight"
           >
-            India’s Biggest <br />
+            India&apos;s Largest <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-aqua-300 via-aqua-100 to-white drop-shadow-sm">
               Inflatable Water Adventure
             </span>
-            <br /> Is Coming
+            <br /> Park Is Coming
           </motion.h1>
 
           <motion.p
@@ -57,7 +57,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
             className="hero-copy text-sm sm:text-base md:text-xl text-white/90 font-medium max-w-3xl mb-6 sm:mb-10 leading-relaxed text-balance drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]"
           >
-            Get ready for giant inflatable obstacles, thrilling water slides, floating adventures, India’s first Water Go-Kart experience, relaxing lazy river moments, and unforgettable fun for every age.
+            Get ready for giant inflatable obstacle courses, thrilling water slides, floating adventures, India&apos;s first Water Go-Kart experience, a dedicated kids splash zone, and unforgettable family fun — the best water park in Gujarat is coming to Kadi.
           </motion.p>
 
           <motion.div

@@ -43,11 +43,11 @@ export default function Intro() {
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-ocean-950 mb-5 sm:mb-6 leading-tight">
                 A New Wave of <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-aqua-500 to-ocean-500">
-                  Adventure Is Coming
+                  Water Adventure
                 </span>
               </h2>
               <p className="text-base sm:text-lg text-ocean-800/80 mb-8 sm:mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                Aquatown is an upcoming inflatable-format water adventure park designed to bring together thrilling water challenges, floating attractions, giant slides, relaxing experiences, and family-friendly entertainment in one unforgettable destination.
+                Aquatown is an upcoming inflatable water adventure park designed to bring together thrilling water challenges, a floating water park, giant inflatable slides, relaxing experiences, and family-friendly entertainment in one unforgettable destination — your perfect weekend getaway near Ahmedabad, Gujarat.
               </p>
             </motion.div>
 

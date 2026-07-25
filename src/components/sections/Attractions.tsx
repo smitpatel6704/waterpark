@@ -9,18 +9,21 @@ const attractions = [
   {
     title: "Adult Water Inflatable Course",
     desc: "A massive inflatable water obstacle course designed for thrill seekers with challenging obstacles and interactive activities.",
+    alt: "Adult inflatable water obstacle course at Aquatown water adventure park Gujarat",
     color: "from-ocean-500 to-ocean-800",
     image: "/hero-bg.png",
   },
   {
     title: "Kids Inflatable Pool",
     desc: "A dedicated children's water play area featuring safe inflatable slides, splash games, and fun-filled attractions.",
+    alt: "Kids splash zone with inflatable slides at Aquatown family water park",
     color: "from-yellow-300 to-yellow-500",
     image: "/attr-pool.png",
   },
   {
     title: "Water Go Cart",
     desc: "Experience India's first water-based go-kart racing attraction with a unique blend of speed and water adventure.",
+    alt: "Water Go Kart India – racing on water at Aquatown adventure park Gujarat",
     badge: "India's First",
     color: "from-coral-400 to-coral-600",
     image: "/attr-gokart.png",
@@ -28,12 +31,14 @@ const attractions = [
   {
     title: "Paintball Arena",
     desc: "Gear up and experience an action-packed paintball battle in our custom-designed competitive arena.",
+    alt: "Paintball arena for competitive fun at Aquatown water adventure park",
     color: "from-purple-400 to-purple-600",
     image: "/attr-slides.png",
   },
   {
     title: "Rain-Dance Area",
     desc: "Dance to the latest beats under a refreshing shower of rain, featuring spectacular lighting and an exciting atmosphere.",
+    alt: "Rain dance area with music and lights at Aquatown inflatable water park",
     color: "from-aqua-400 to-ocean-500",
     image: "/intro-img.png",
   },
@@ -86,10 +91,10 @@ export default function Attractions() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white mb-4">
-              Dive Into the <span className="text-transparent bg-clip-text bg-gradient-to-r from-aqua-400 to-aqua-200">Adventure</span>
+              Adventure <span className="text-transparent bg-clip-text bg-gradient-to-r from-aqua-400 to-aqua-200">Attractions</span>
             </h2>
             <p className="text-white/70 max-w-2xl text-base sm:text-lg font-medium text-balance">
-              Explore a world of inflatable challenges, high-speed excitement, floating fun, and relaxing water experiences.
+              Explore a world of inflatable obstacle courses, high-speed water activities, floating fun, and exciting water adventures for every age.
             </p>
           </motion.div>
         </div>
@@ -108,7 +113,7 @@ export default function Attractions() {
               {/* Background Image — using Next/Image for optimized loading */}
               <Image
                 src={item.image}
-                alt={item.title}
+                alt={item.alt}
                 fill
                 sizes="(max-width: 768px) 300px, 400px"
                 className="object-cover transform-gpu transition-transform duration-700 group-hover:scale-110"
