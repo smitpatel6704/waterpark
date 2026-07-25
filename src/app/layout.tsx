@@ -154,6 +154,18 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HMER4ER24L"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HMER4ER24L');
+          `}
+        </Script>
+        <Script
           id="json-ld-amusement-park"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
