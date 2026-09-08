@@ -140,7 +140,7 @@ export default function Contact() {
 
                 <h3 className="max-w-sm text-2xl sm:text-3xl font-black leading-tight md:text-4xl">
                   Make a splash,
-                  <span className="block text-aqua-400">find us in Sherisa.</span>
+                  <span className="block text-aqua-400">find us in Kalol.</span>
                 </h3>
                 <p className="mt-4 max-w-md text-sm font-medium leading-6 text-white/60 md:text-base">
                   Easy to reach, impossible to forget. Tap below for a direct
