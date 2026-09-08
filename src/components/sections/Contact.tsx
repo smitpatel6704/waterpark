@@ -140,7 +140,7 @@ export default function Contact() {
 
                 <h3 className="max-w-sm text-2xl sm:text-3xl font-black leading-tight md:text-4xl">
                   Make a splash,
-                  <span className="block text-aqua-400">minutes from Kadi.</span>
+                  <span className="block text-aqua-400">find us in Sherisa.</span>
                 </h3>
                 <p className="mt-4 max-w-md text-sm font-medium leading-6 text-white/60 md:text-base">
                   Easy to reach, impossible to forget. Tap below for a direct
@@ -151,7 +151,7 @@ export default function Contact() {
               <div className="relative my-8 min-h-52 flex-1 overflow-hidden rounded-3xl border border-white/15 bg-white/5 shadow-inner">
                 <iframe
                   title="Aquatown location map"
-                  src="https://www.google.com/maps?q=E%2F4%2C%20Vatsalya%20City%2C%20Detroj%20Road%2C%20Kadi%2C%20Gujarat%20382715&z=15&output=embed"
+                  src="https://www.google.com/maps?q=Aquatown%2C%20Survay%20392%2C%20Khatraj%20Kalol%20Rd%2C%20beside%20sherisa%2C%20canal%2C%20Kalol%2C%20Sherisa%2C%20Gujarat%20382725&z=15&output=embed"
                   className="absolute inset-0 h-full w-full border-0"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
@@ -171,15 +171,17 @@ export default function Contact() {
                       Park address
                     </p>
                     <address className="mt-1 text-sm font-semibold not-italic leading-6 text-white/85">
-                      E/4, Vatsalya City, Detroj Road
+                      Survay 392, Khatraj Kalol Rd,
                       <br />
-                      Kadi – 382715, Gujarat, India
+                      beside sherisa, canal,
+                      <br />
+                      Kalol, Sherisa, Gujarat 382725
                     </address>
                   </div>
                 </div>
 
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=E%2F4%2C%20Vatsalya%20City%2C%20Detroj%20Road%2C%20Kadi%2C%20Gujarat%20382715"
+                  href="https://www.google.com/maps/search/?api=1&query=Aquatown%2C%20Survay%20392%2C%20Khatraj%20Kalol%20Rd%2C%20beside%20sherisa%2C%20canal%2C%20Kalol%2C%20Sherisa%2C%20Gujarat%20382725"
                   target="_blank"
                   rel="noreferrer"
                   className="group flex w-full items-center justify-between rounded-2xl bg-white px-5 py-4 font-black text-ocean-950 shadow-lg transition hover:-translate-y-0.5 hover:bg-aqua-50"

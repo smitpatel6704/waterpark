@@ -19,7 +19,7 @@ const siteName = "Aquatown";
 const title =
   "Aquatown – India's Largest Inflatable Water Adventure Park | Water Park in Gujarat";
 const description =
-  "Aquatown is India's largest inflatable water adventure park coming soon to Kadi, Gujarat. Featuring India's first Water Go-Kart, giant inflatable obstacle courses, kids splash zone, adult water pools, Paintball Arena, Rain-Dance Area, and family-friendly entertainment. The best water park near Ahmedabad for weekend getaways and summer vacations.";
+  "Aquatown is India's largest inflatable water adventure park coming soon to Kalol, Gujarat. Featuring India's first Water Go-Kart, giant inflatable obstacle courses, kids splash zone, adult water pools, Paintball Arena, Rain-Dance Area, and family-friendly entertainment. The best water park near Ahmedabad for weekend getaways and summer vacations.";
 
 export const metadata: Metadata = {
   // ── Core ──────────────────────────────────────────────
@@ -140,7 +140,7 @@ const jsonLd = {
   name: "Aquatown – India's Largest Inflatable Water Adventure Park",
   alternateName: "Aquatown Water Park",
   description:
-    "Aquatown is India's largest inflatable water adventure park in Kadi, Gujarat. Featuring India's first Water Go-Kart, giant inflatable obstacle courses, kids splash zone, adult water pools, Paintball Arena, Rain-Dance Area, and the best family-friendly water entertainment near Ahmedabad.",
+    "Aquatown is India's largest inflatable water adventure park in Kalol, Gujarat. Featuring India's first Water Go-Kart, giant inflatable obstacle courses, kids splash zone, adult water pools, Paintball Arena, Rain-Dance Area, and the best family-friendly water entertainment near Ahmedabad.",
   url: siteUrl,
   logo: `${siteUrl}/image.png`,
   image: `${siteUrl}/og-image.png`,
@@ -160,17 +160,13 @@ const jsonLd = {
   },
   address: {
     "@type": "PostalAddress",
-    streetAddress: "E/4, Vatsalya City, Detroj Road",
-    addressLocality: "Kadi",
+    streetAddress: "Survay 392, Khatraj Kalol Rd, beside sherisa, canal",
+    addressLocality: "Kalol, Sherisa",
     addressRegion: "Gujarat",
-    postalCode: "382715",
+    postalCode: "382725",
     addressCountry: "IN",
   },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: "23.2980",
-    longitude: "72.3375",
-  },
+  hasMap: "https://www.google.com/search?kgmid=%2Fg%2F11zwzp5lgy&hl=en-IN&q=Aquatown",
   telephone: "+916355918057",
   email: "info@aquatown.in",
   sameAs: [

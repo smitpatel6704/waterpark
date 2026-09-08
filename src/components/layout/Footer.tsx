@@ -39,7 +39,7 @@ export default function Footer() {
               />
             </a>
             <p className="text-white/70 max-w-sm mb-6 leading-relaxed">
-              India&apos;s largest inflatable water adventure park coming soon to Kadi, Gujarat. Featuring Water Go-Kart, giant inflatable obstacle courses, kids splash zone, and the best family water park experience near Ahmedabad.
+              India&apos;s largest inflatable water adventure park coming soon to Kalol, Gujarat. Featuring Water Go-Kart, giant inflatable obstacle courses, kids splash zone, and the best family water park experience near Ahmedabad.
             </p>
             <div className="inline-block px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-xs font-bold tracking-wider uppercase text-aqua-400">
               Coming Soon
@@ -59,7 +59,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-6">Contact</h4>
             <ul className="space-y-4 text-white/70 font-medium">
-              <li className="leading-relaxed">E/4, Vatsalya City, Detroj Road,<br/>Kadi – 382715, Gujarat, India</li>
+              <li className="leading-relaxed">Survay 392, Khatraj Kalol Rd,<br/>beside sherisa, canal,<br/>Kalol, Sherisa, Gujarat 382725</li>
               <li>+91 63559 18057</li>
               <li>
                 <a href="mailto:info@aquatown.in" className="hover:text-aqua-400 transition-colors">

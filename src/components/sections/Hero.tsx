@@ -57,7 +57,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
             className="hero-copy text-sm sm:text-base md:text-xl text-white/90 font-medium max-w-3xl mb-6 sm:mb-10 leading-relaxed text-balance drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]"
           >
-            Get ready for giant inflatable obstacle courses, thrilling water slides, floating adventures, India&apos;s first Water Go-Kart experience, a dedicated kids splash zone, and unforgettable family fun — the best water park in Gujarat is coming to Kadi.
+            Get ready for giant inflatable obstacle courses, thrilling water slides, floating adventures, India&apos;s first Water Go-Kart experience, a dedicated kids splash zone, and unforgettable family fun — the best water park in Gujarat is coming to Kalol.
           </motion.p>
 
           <motion.div
